@@ -15,5 +15,5 @@
       ]
     }
   },
-  "postCreateCommand": "echo '# Writing code upon codespace creation!' >> codespace.md"
+  "postCreateCommand": "./setup.sh && echo '# Writing code upon codespace creation!' >> codespace.md"
 }
